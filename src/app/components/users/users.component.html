@@ -28,7 +28,7 @@
     </ion-checkbox>
 
     <span>
-      {{ user.id }} - {{ user.name }} - {{ user.active }}
+      {{ user.id }} - {{ user.name }} - {{user.cidade}} - {{user.email}} - {{ user.active }}
     </span>
 
     <ion-button slot="end" (click)="deleteUser(user)" fill="clear" color="danger">
